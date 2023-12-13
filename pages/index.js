@@ -1631,11 +1631,11 @@ export async function getServerSideProps(context) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
+      Authorization: "75eccd09-590d-4119-9425-8ad4c95dd5b3",
     },
     body: JSON.stringify({
       query:
-        'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+        'query {user(username: "aifanatic") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
     }),
   });
   const publications = await res.json();

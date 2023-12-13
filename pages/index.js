@@ -8,6 +8,7 @@ import Icon from "../components/Icon";
 // Icons
 import Html from "../components/icons/Html";
 import Css from "../components/icons/Css";
+import Python from "../components/icons/Python";
 import Javascript from "../components/icons/Javascript";
 import Tailwind from "../components/icons/Tailwind";
 import Bootstrap from "../components/icons/Bootstrap";
@@ -29,6 +30,7 @@ import ProjectCard from "../components/ProjectCard";
 import GitHubProfile from "../components/icons/GitHubProfile";
 import TwitterProfile from "../components/icons/TwitterProfile";
 import LinkedInProfile from "../components/icons/LinkedInProfile";
+import ResumeProfile from "../components/icons/ResumeProfile";
 import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 // Blog Components
@@ -587,7 +589,7 @@ export default function Home({ publications }) {
                     text={[
                       `Solution Architect`,
                       `AI Engineer`,
-                      `Teacher`,
+                      `Solopreneur`,
                       `Tech Writer`,
                     ]}
                   />
@@ -620,36 +622,43 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I&apos;m Naveen and I&apos;m a Solution Architect,
-                    designer and teacher from Bristol, England.
+                    Hello! I&apos;m Naveen and I&apos;m a Solution Architect, AI
+                    Engineer and Tech Writer from Dallas, Texas, US.
                   </p>
                   <p className="text-lg">
-                    After building my first website aged thirteen, I knew I
-                    wanted to work with computers and technology, and I&apos;ve
-                    never looked back.
+                    Education 🎓 Naveen Chatlapalli holds a Master's degree in
+                    Computer Science from San Francisco Bay University. His
+                    educational journey likely began at Jawaharlal Nehru
+                    Technological University Kakinad​​a
                   </p>
                   <p className="text-lg">
-                    After graduating University with a Media degree, I began
-                    freelancing as a designer, creating graphics, video content
-                    and websites for small businesses, using content management
-                    systems like Wordpress, Joomla and Squarespace.
+                    Career 🧑🏼‍💻 After graduating University with a CS degree, I
+                    began to work as a Dot Net Developer at a startup and where
+                    I found about UiPath. Then I started learning about UiPath
+                    RPA technology and won a 1st prize 🏆 in the hackathon.
                   </p>
                   <p className="text-lg">
-                    In recent years, I&apos;ve been focused on programming,
-                    building a solid frontend stack and creating exciting
-                    projects that solve real-world problems.
+                    Then I landed a job at Ashling Partners where I never looked
+                    back. The Ashling Partners open culture and growth mindset
+                    encouraged me to excel and shine. Within no time I've
+                    transitioned from RPA Developer to Lead RPA Developer. And
+                    with no time I've promoted as a Solution Architect.
                   </p>
                   <p className="text-lg">
-                    Alongside my design and development work, I run a BA Media
-                    Production degree course and a corporate video production
-                    company called{" "}
+                    Alongside my SA and development work, I love to create
+                    software products and write online to simpligy AI and ML
+                    concepts from my own learnings. I love to create some AI ART
+                    using Stable Diffusion and latest technology. Also I lead a
+                    UiPath Community Chapter for Dallas region, where I conduct
+                    virtual & in-person sessions to explain the latest
+                    advancements in{" "}
                     <a
-                      href="http://www.wearespotlight.co.uk"
+                      href="https://community.uipath.com/dallas-texas/"
                       target="_blank"
                       className="underline-link"
                       rel="noreferrer"
                     >
-                      Spotlight Media
+                      UiPath Dallas Chapter
                     </a>
                     , so I like to keep busy!
                   </p>
@@ -702,6 +711,22 @@ export default function Home({ publications }) {
               <Icon
                 IconType={Css}
                 title="CSS"
+                width={"w-16"}
+                height={"h-16"}
+                padding={"p-0"}
+                flexDirection={"flex-col"}
+                titleMargins={"mt-4"}
+                titleSize={"text-sm sm:text-sm"}
+                marginBottom={"mb-4"}
+                marginRight={"mr-0"}
+                textTransform={"normal-case"}
+                fixedHeight={"h-28"}
+              />
+
+              {/* Python */}
+              <Icon
+                IconType={Python}
+                title="PYTHON"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
@@ -1329,6 +1354,9 @@ export default function Home({ publications }) {
                 <span className="mr-2">
                   <LinkedInProfile marginBottom={"mb-0"} />
                 </span>
+                <span className="mr-2">
+                  <ResumeProfile marginBottom={"mb-0"} />
+                </span>
               </div>
             </div>
           </footer>
@@ -1342,6 +1370,7 @@ export default function Home({ publications }) {
               <GitHubProfile marginBottom={"mb-4"} />
               <TwitterProfile marginBottom={"mb-4"} />
               <LinkedInProfile marginBottom={"mb-4"} />
+              <ResumeProfile marginBottom={"mb-4"} />
               <div className="w-0.5 dark:bg-white bg-dark h-24 opacity-20 mt-2"></div>
             </div>
 

@@ -626,7 +626,7 @@ export default function Home({ publications }) {
                     Engineer and Tech Writer from Dallas, Texas, US.
                   </p>
                   <p className="text-lg">
-                    Education 🎓 Naveen Chatlapalli holds a Master's degree in
+                    Education 🎓 Naveen Chatlapalli holds a Masters degree in
                     Computer Science from San Francisco Bay University. His
                     educational journey likely began at Jawaharlal Nehru
                     Technological University Kakinad​​a
@@ -640,9 +640,9 @@ export default function Home({ publications }) {
                   <p className="text-lg">
                     Then I landed a job at Ashling Partners where I never looked
                     back. The Ashling Partners open culture and growth mindset
-                    encouraged me to excel and shine. Within no time I've
+                    encouraged me to excel and shine. Within no time I have
                     transitioned from RPA Developer to Lead RPA Developer. And
-                    with no time I've promoted as a Solution Architect.
+                    with no time I have promoted as a Solution Architect.
                   </p>
                   <p className="text-lg">
                     Alongside my SA and development work, I love to create

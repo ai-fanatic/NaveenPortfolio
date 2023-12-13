@@ -4,7 +4,7 @@ const ResumeProfile = ({ marginBottom }) => {
   return (
     <div className={`w-8 h-8 ${marginBottom}`}>
       <a
-        href="pages/NaveenChatlapalli_Resume.pdf"
+        href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ai-fanatic/NaveenPortfolio/main/pages/NaveenChatlapalli_Resume.pdf"
         target="_blank"
         rel="noreferrer"
       >

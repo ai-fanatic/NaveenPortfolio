@@ -222,10 +222,10 @@ export default function Home({ publications }) {
         }`}
       >
         <Head>
-          <title>Daniel Cranney | Frontend Developer & Designer</title>
+          <title>Naveen Chatlapalli | Solution Architect & AI Engineer</title>
           <meta
             name="description"
-            content="The portfolio of frontend developer and designer, Daniel Cranney"
+            content="The portfolio of frontend developer and designer, Naveen Chatlapalli"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -341,7 +341,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:naveen.aifanatic@gmail.com`}
                     className="text-lg btn-brand btn-lg group"
                   >
                     Hire me
@@ -423,7 +423,7 @@ export default function Home({ publications }) {
             {/* Text */}
             <div className="flex items-center ml-4">
               <p className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
-                Daniel Cranney
+                Naveen Chatlapalli
               </p>
             </div>
             {/* Nav */}
@@ -511,7 +511,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-50 hidden ml-5 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:naveen.aifanatic@gmail.com`}
                     className="btn-brand btn-md group"
                   >
                     Hire me
@@ -576,7 +576,7 @@ export default function Home({ publications }) {
                 </span>
 
                 <h1 className="mb-4 text-5xl md:text-7xl dark:text-white text-dark">
-                  Daniel Cranney
+                  Naveen Chatlapalli
                 </h1>
                 <h2 className="mb-4 text-3xl md:text-4xl dark:text-light text-mid">
                   <ReactTypingEffect
@@ -585,10 +585,10 @@ export default function Home({ publications }) {
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Frontend Developer`,
-                      `Designer`,
+                      `Solution Architect`,
+                      `AI Engineer`,
                       `Teacher`,
-                      `Cat Dad`,
+                      `Tech Writer`,
                     ]}
                   />
                 </h2>
@@ -620,7 +620,7 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I&apos;m Dan and I&apos;m a frontend developer,
+                    Hello! I&apos;m Naveen and I&apos;m a Solution Architect,
                     designer and teacher from Bristol, England.
                   </p>
                   <p className="text-lg">
@@ -660,11 +660,11 @@ export default function Home({ publications }) {
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
-                    src="/headshot-with-frame-2.jpg"
+                    src="/headshot-with-frame-2.png"
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
-                    alt={"Daniel Cranney headshot"}
+                    alt={"Naveen Chatlapalli headshot"}
                   />
                 </div>
               </div>
@@ -970,15 +970,15 @@ export default function Home({ publications }) {
             <div className="flex flex-col w-full mb-12">
               {/* Project One */}
               <FeaturedProjectCard
-                title={"Smylo"}
-                status={"Join the Waitlist"}
-                description={`Keep your life on track and never miss another important date again`}
+                title={"TimeItUp"}
+                status={"Beta Version"}
+                description={`Track your time and get AI powered insights`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/smylo.png"}
-                liveLink={"https://smylo.co/"}
+                imgSrc={"/projects/TimeItUp.png"}
+                liveLink={"https://ai-fanatic.github.io/TimeItUp/main.html"}
                 repoLink={null}
                 stack={
                   <>
@@ -1066,15 +1066,15 @@ export default function Home({ publications }) {
               />
               {/* Project Two */}
               <FeaturedProjectCard
-                title={"ColorHub"}
+                title={"DivineRadio"}
                 status={"V2 Just Launched"}
-                description={`Find the perfect palette for your next perfect. pick it, preview it and paste it right into your code.`}
+                description={`Hub for Hindu devotional songs and PDF to chant`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row-reverse`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/colorhub.png"}
-                liveLink={"https://colorhub.app/"}
+                imgSrc={"/projects/DivineRadio.png"}
+                liveLink={"https://ai-fanatic.github.io/DivineRadio/"}
                 repoLink={null}
                 stack={
                   <>
@@ -1146,16 +1146,16 @@ export default function Home({ publications }) {
               />
               {/* Project Three */}
               <FeaturedProjectCard
-                title={"ProfileMe.dev"}
+                title={"XchangeXpert"}
                 status={"Open Source"}
-                description={`Create an amazing GitHub profile complete with skills icons, stat graphs and more in just a couple of minutes.`}
+                description={`Convert real time currency into any given`}
                 float={`right-0`}
                 flexDirection={`flex-col lg:flex-row`}
                 imgWidth={"1366"}
                 imgHeight={"666"}
-                imgSrc={"/projects/profileme.png"}
-                liveLink={"https://profileme.dev"}
-                repoLink={"https://github.com/danielcranney/profileme.dev"}
+                imgSrc={"/projects/XchangeXpert.png"}
+                liveLink={"https://xchange-xpert.vercel.app/"}
+                repoLink={"https://github.com/ai-fanatic/XchangeXpert"}
                 stack={
                   <>
                     <Icon
@@ -1272,10 +1272,10 @@ export default function Home({ publications }) {
                 <p className="text-lg">
                   Email me at{" "}
                   <Link
-                    href="mailto:danielcranney@gmail.com"
+                    href="mailto:naveen.aifanatic@gmail.com"
                     className="underline-link"
                   >
-                    danielcranney@gmail.com
+                    naveen.aifanatic@gmail.com
                   </Link>{" "}
                   and let&apos;s talk about your project!
                 </p>
@@ -1315,8 +1315,8 @@ export default function Home({ publications }) {
 
             <div className="flex flex-col items-start md:flex-row">
               <p className="w-auto mb-4 md:mb-0">
-                &copy; {new Date().getFullYear()} - Designed and built by Daniel
-                Cranney
+                &copy; {new Date().getFullYear()} - Designed and built by Naveen
+                Chatlapalli
               </p>
 
               <div className="flex md:hidden">

@@ -3,11 +3,7 @@ import React from "react";
 const GitHubProfile = ({ marginBottom }) => {
   return (
     <div className={`w-8 h-8 ${marginBottom}`}>
-      <a
-        href="https://github.com/danielcranney"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://github.com/ai-fanatic" target="_blank" rel="noreferrer">
         <svg
           className="dark:text-white text-dark transition-all duration-300 ease-in-out transform translate-y-0 dark:opacity-50 fill-current dark:hover:opacity-100 hover:-translate-y-1"
           xmlns="http://www.w3.org/2000/svg"

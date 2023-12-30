@@ -516,7 +516,7 @@ export default function Home({ publications }) {
                     href={`mailto:naveen.aifanatic@gmail.com`}
                     className="btn-brand btn-md group"
                   >
-                    Hire me
+                    📧 Email Me
                   </a>
                 </li>
                 <li className="z-50 inline-block list-none lg:hidden group">
@@ -595,8 +595,17 @@ export default function Home({ publications }) {
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
-                  I design and build websites that look good, and work well.
+                  I design and build user-centric apps 🌏 Solve real-world
+                  problems ⏲️ Enhance productivity and 🤖 Innovative AI
                 </p>
+                {/* <p className="w-4/5 text-xl md:w-full">
+                  🌏 Solve real-world problems
+                </p>
+                <p className="w-4/5 text-xl md:w-full">
+                  ⏲️ Enhance productivity
+                </p>
+                <p className="w-4/5 text-xl md:w-full">🤖 Innovative AI</p> */}
+
                 <button
                   className="mt-4 btn-brand btn-lg group"
                   onClick={() => {
@@ -622,36 +631,41 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I&apos;m Naveen and I&apos;m a Solution Architect, AI
-                    Engineer and Tech Writer from Dallas, Texas, US.
+                    Hello! I'm Naveen, a Solution Architect, AI Engineer, and
+                    Tech Writer based in Dallas, Texas, USA.
                   </p>
                   <p className="text-lg">
-                    Education 🎓 Naveen Chatlapalli holds a Masters degree in
-                    Computer Science from San Francisco Bay University. His
-                    educational journey likely began at Jawaharlal Nehru
-                    Technological University Kakinad​​a
+                    Education 🎓: I hold a Master's degree in Computer Science
+                    from San Francisco Bay University. My educational journey
+                    began at Jawaharlal Nehru Technological University,
+                    Kakinada, where I developed a solid foundation in technology
+                    and innovation.
                   </p>
                   <p className="text-lg">
-                    Career 🧑🏼‍💻 After graduating University with a CS degree, I
-                    began to work as a Dot Net Developer at a startup and where
-                    I found about UiPath. Then I started learning about UiPath
-                    RPA technology and won a 1st prize 🏆 in the hackathon.
+                    Career 🧑🏼‍💻: After earning my degree in Computer Science, I
+                    started my career as a .NET Developer at a startup. It was
+                    here that I discovered UiPath and delved into the world of
+                    RPA (Robotic Process Automation) technology. My passion and
+                    skill in this field led me to win first prize 🏆 in a
+                    hackathon, a milestone that marked the beginning of a series
+                    of successes.
                   </p>
                   <p className="text-lg">
-                    Then I landed a job at Ashling Partners where I never looked
-                    back. The Ashling Partners open culture and growth mindset
-                    encouraged me to excel and shine. Within no time I have
-                    transitioned from RPA Developer to Lead RPA Developer. And
-                    with no time I have promoted as a Solution Architect.
+                    Subsequently, I joined Ashling Partners, a decision that
+                    propelled my career forward. Embracing the company's open
+                    culture and growth mindset, I quickly advanced from an RPA
+                    Developer to Lead RPA Developer. In a short span, I was
+                    promoted to Solution Architect, a role in which I thrive by
+                    designing innovative solutions and leading projects.
                   </p>
                   <p className="text-lg">
-                    Alongside my SA and development work, I love to create
-                    software products and write online to simpligy AI and ML
-                    concepts from my own learnings. I love to create some AI ART
-                    using Stable Diffusion and latest technology. Also I lead a
-                    UiPath Community Chapter for Dallas region, where I conduct
-                    virtual & in-person sessions to explain the latest
-                    advancements in{" "}
+                    In addition to my responsibilities as a Solution Architect,
+                    I have a passion for creating software products and writing
+                    about AI and ML. My goal is to simplify these complex
+                    concepts based on my own experiences and learnings. I also
+                    enjoy creating AI art using Stable Diffusion and staying
+                    abreast of the latest technological advancements.
+                    Furthermore, I lead the{" "}
                     <a
                       href="https://community.uipath.com/dallas-texas/"
                       target="_blank"
@@ -660,12 +674,23 @@ export default function Home({ publications }) {
                     >
                       UiPath Dallas Chapter
                     </a>
-                    , so I like to keep busy!
+                    , for the Dallas region, conducting virtual and in-person
+                    sessions to share the latest developments in the field.
+                  </p>
+
+                  <p className="text-lg">
+                    As a Solopreneur, I am deeply committed to leveraging my
+                    skills to develop useful solutions, including WebApps and
+                    Mobile Apps, aimed at solving complex problems. This journey
+                    has not only been about creating impactful technology but
+                    also about understanding and addressing the real-world needs
+                    of people. This aspect of my work reflects my dedication to
+                    making technology accessible and beneficial to a wider
+                    audience.
                   </p>
                   <p className="text-lg">
                     Take a look at my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!
-                  </p>
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
@@ -1340,8 +1365,16 @@ export default function Home({ publications }) {
 
             <div className="flex flex-col items-start md:flex-row">
               <p className="w-auto mb-4 md:mb-0">
-                &copy; {new Date().getFullYear()} - Designed and built by Naveen
-                Chatlapalli
+                &copy; {new Date().getFullYear()} - Built by Naveen Chatlapalli,
+                inspired by{" "}
+                <a
+                  href="https://www.linkedin.com/in/daniel-cranney/"
+                  target="_blank"
+                  className="underline-link"
+                  rel="noreferrer"
+                >
+                  Daniel Cranney
+                </a>
               </p>
 
               <div className="flex md:hidden">

@@ -631,13 +631,13 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I'm Naveen, a Solution Architect, AI Engineer, and
-                    Tech Writer based in Dallas, Texas, USA.
+                    Hello! I&apos;m Naveen, a Solution Architect, AI Engineer,
+                    and Tech Writer based in Dallas, Texas, USA.
                   </p>
                   <p className="text-lg">
-                    Education 🎓: I hold a Master's degree in Computer Science
-                    from San Francisco Bay University. My educational journey
-                    began at Jawaharlal Nehru Technological University,
+                    Education 🎓: I hold a Master&apos;s degree in Computer
+                    Science from San Francisco Bay University. My educational
+                    journey began at Jawaharlal Nehru Technological University,
                     Kakinada, where I developed a solid foundation in technology
                     and innovation.
                   </p>
@@ -652,9 +652,9 @@ export default function Home({ publications }) {
                   </p>
                   <p className="text-lg">
                     Subsequently, I joined Ashling Partners, a decision that
-                    propelled my career forward. Embracing the company's open
-                    culture and growth mindset, I quickly advanced from an RPA
-                    Developer to Lead RPA Developer. In a short span, I was
+                    propelled my career forward. Embracing the company&apos;s
+                    open culture and growth mindset, I quickly advanced from an
+                    RPA Developer to Lead RPA Developer. In a short span, I was
                     promoted to Solution Architect, a role in which I thrive by
                     designing innovative solutions and leading projects.
                   </p>
@@ -691,6 +691,7 @@ export default function Home({ publications }) {
                   <p className="text-lg">
                     Take a look at my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!
+                  </p>
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image

@@ -595,7 +595,7 @@ export default function Home({ publications }) {
                   />
                 </h2>
                 <p className="w-4/5 text-xl md:w-full">
-                  I design and build user-centric apps 🌏 Solve real-world
+                  I design and build user-centric apps to - 🌏 Solve real-world
                   problems ⏲️ Enhance productivity and 🤖 Innovative AI
                 </p>
                 {/* <p className="w-4/5 text-xl md:w-full">

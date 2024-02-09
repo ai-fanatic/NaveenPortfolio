@@ -34,8 +34,8 @@ import ResumeProfile from "../components/icons/ResumeProfile";
 import FeaturedProjectCard from "../components/FeaturedProjectCard";
 
 // Blog Components
-import BlogList from "../components/blog/BlogList";
-import BlogItem from "../components/blog/BlogItem";
+// import BlogList from "../components/blog/BlogList";
+// import BlogItem from "../components/blog/BlogItem";
 
 // Dark Mode
 import { useTheme } from "next-themes";
@@ -1302,7 +1302,25 @@ export default function Home({ publications }) {
             <h2 className="text-5xl">Blog</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
 
-            <BlogList publications={publications} />
+            {/* <BlogList publications={publications} /> */}
+            <div className="flex flex-col-reverse w-full md:flex-row">
+              <div className="w-full mb-4 md:pl-0 md:mb-0">
+                <p className="text-lg">
+                  I&apos;m currently writing my thoughts in my blog, check it
+                  out below.
+                </p>
+                <p className="text-lg">
+                  Blog Link:{" "}
+                  <Link
+                    href="https://blog-aifanatic.vercel.app"
+                    className="underline-link"
+                  >
+                    aifanatic-blog
+                  </Link>{" "}
+                  and let&apos;s learn something new!
+                </p>
+              </div>
+            </div>
           </section>
 
           {/* Contact */}
@@ -1660,29 +1678,29 @@ export default function Home({ publications }) {
  * @param {Object} context
  * @returns props
  */
-export async function getServerSideProps(context) {
-  const res = await fetch("https://api.hashnode.com/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: "75eccd09-590d-4119-9425-8ad4c95dd5b3",
-    },
-    body: JSON.stringify({
-      query:
-        'query {user(username: "aifanatic") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
-    }),
-  });
-  const publications = await res.json();
+// export async function getServerSideProps(context) {
+//   const res = await fetch("https://api.hashnode.com/", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//       Authorization: "75eccd09-590d-4119-9425-8ad4c95dd5b3",
+//     },
+//     body: JSON.stringify({
+//       query:
+//         'query {user(username: "aifanatic") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+//     }),
+//   });
+//   const publications = await res.json();
 
-  if (!publications) {
-    return {
-      notFound: true,
-    };
-  }
+//   if (!publications) {
+//     return {
+//       notFound: true,
+//     };
+//   }
 
-  return {
-    props: {
-      publications,
-    },
-  };
-}
+//   return {
+//     props: {
+//       publications,
+//     },
+//   };
+// }
